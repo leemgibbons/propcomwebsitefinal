@@ -1,0 +1,842 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+/* Common */
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #000;
+}
+h1 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+/* Main Logo */
+
+.mainlogo {
+    text-align: center;
+    padding-top: 4em;
+    margin-top: 0em;
+}
+.propellerlogo {
+    width: 180px;
+    height: auto;
+}
+/* Main Introduction */
+
+.introduction {
+    background-image: url(../images/topbackground.JPG);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+}
+.introduction .content {
+    width: 60%;
+    height: 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+.introduction h1 {
+    color: #000000;
+    font-weight: 200;
+    font-size: 2em;
+}
+.introduction h3 {
+    color: #000000;
+    font-weight: 100;
+    font-size: 1em;
+}
+/* Navigation Section */
+
+.top-navigation {
+    width: 100%;
+}
+.top-navigation .content {
+    width: 60%;
+    height: 40px;
+    margin: 0 auto;
+}
+.top-navigation .links {
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 2em;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    border-top: solid 2px #ffffff;
+    border-bottom: solid 2px #ffffff;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+}
+.top-navigation .links li:first-child {
+    margin-left: 0;
+}
+.top-navigation .links li:last-child {
+    margin-right: 0;
+}
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+.top-navigation .linkssocial {
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 10px;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+}
+.top-navigation .linkssocial li {
+    display: inline-block;
+    margin-left: 45px;
+    border-radius: 1.25rem;
+    border: 2px solid #fff;
+    padding: 0.5rem 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+}
+.top-navigation .linkssocial li:first-child {
+    margin-left: 0px;
+}
+.top-navigation .linkssocial .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+/* Main Content */
+
+.cases {
+    position: relative;
+    background-color: #fff;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25rem;
+}
+.cases .content {
+    position: absolute;
+    z-index: 999;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    padding: none;
+    color: #1d1e21;
+    text-align: center;
+    float: left;
+    top: -20rem;
+    display: block;
+    background-color: #fff;
+}
+.cases h2 {
+    font-size: 2rem;
+    margin: 0 3rem;
+    font-weight: bold;
+    padding-top: 2rem;
+}
+.cases h2 span {
+    display: block;
+    width: 100%;
+}
+.cases h3 {
+    font-size: 1rem;
+    margin: 0 11.125rem;
+    font-weight: 100;
+    margin-bottom: 2.5rem;
+    line-height: 150%;
+}
+.cases .devices {
+    clear: both;
+    box-sizing: border-box;
+}
+.cases .devices li {
+    width: 25%;
+    float: left;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    position: relative;
+    height: 80%;
+}
+.cases .devices li .hoverimage {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+}
+.cases .devices li:hover .hoverimage {
+    display: block;
+}
+/* footer */
+
+.social {
+    text-align: center;
+    background-image: url(../images/bottomt-background.JPG);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    color: #fff;
+    padding-top: 25em;
+}
+.social hr {
+    width: 95%;
+	height: 2px;
+	color: #fff;
+	border-bottom: 2px solid;
+	margin: 5px;
+}
+.social .socialbutton {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    display: block;
+    text-align: center;
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px 20px 5px 20px;
+    border: solid #ffffff 1px;
+    text-decoration: none;
+    background-color: Transparent;
+}
+.social .socialbutton:hover {
+    width: 55%;
+    background-color: #000;
+}
+.social .instagram-images {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.social .instagram-images li {
+    margin-top: 2em;
+    text-align: left;
+}
+.social .instagram-images li:first-child {
+    margin-right: 15%;
+    margin-top: 2em;
+}
+.social .instagram-images li:last-child {
+    margin-left: 15%;
+    margin-top: 2em;
+}
+.social .content {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.social h4 {
+    font-size: 0.7rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    width: 80%;
+    text-align: justify;
+    text-justify: inter-word;
+    font-style: italic;
+    line-height: 2em;
+}
+.social .content .icons li {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+}
+#sign-up {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    display: block;
+    text-align: center;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px 20px 5px 15px;
+    border: solid #ffffff 1px;
+    text-decoration: none;
+    background-color: Transparent;
+    text-align: left;
+}
+.social .submitbutton {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    display: block;
+    text-align: center;
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px 20px 5px 20px;
+    border: solid #ffffff 1px;
+    text-decoration: none;
+    background-color: Transparent;
+}
+.social .submitbutton:hover {
+    width: 35%;
+    background-color: #000;
+}
+/*Media Queries*/
+
+@media only screen and (max-width: 1024px) {
+    body {
+        color: blue;
+    }
+    .introduction {
+        background-image: url(../images/topbackground.JPG);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 45rem;
+    }
+    .top-navigation .links {
+        padding: 10px;
+        font-family: 'Roboto', sans-serif;
+        color: #ffffff;
+        font-size: 14px;
+        margin-top: 1em;
+        -webkit-font-smoothing: antialiased;
+        text-align: center;
+        border-top: solid 2px #ffffff;
+        border-bottom: solid 2px #ffffff;
+    }
+    .top-navigation .links li {
+        display: inline-block;
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+    }
+    .top-navigation .linkssocial {
+        padding: 15px;
+        font-family: 'Roboto', sans-serif;
+        color: #ffffff;
+        font-size: 20px;
+        margin-top: 10px;
+        -webkit-font-smoothing: antialiased;
+        text-align: center;
+        display: inline-block;
+    }
+    .top-navigation .linkssocial li {
+        display: inline-block;
+        margin-left: 15px;
+        border-radius: 1.25rem;
+        border: 2px solid #fff;
+        padding: 0.5rem 0;
+        width: 2.5rem;
+        height: 2.5rem;
+        text-align: center;
+    }
+    .cases {
+        position: relative;
+        background-color: #fff;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 25rem;
+    }
+    .cases .content {
+        position: absolute;
+        z-index: 999;
+        margin-top: 1rem;
+        margin-bottom: 2.5rem;
+        padding: none;
+        color: #1d1e21;
+        text-align: center;
+        float: left;
+        top: -20rem;
+        display: block;
+        background-color: #fff;
+        width: 80%;
+        margin-left: 6em;
+        margin-right: auto;
+    }
+    .cases h3 {
+        font-size: 1rem;
+        margin: 0 0.5rem;
+        font-weight: 100;
+        margin-bottom: 2.5rem;
+        line-height: 150%;
+    }
+    .social .content .icons li {
+        display: block;
+        width: 100%;
+        vertical-align: top;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .social {
+        text-align: center;
+        background-image: url(../images/bottomt-background.JPG);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 45.938rem;
+        color: #fff;
+        padding-top: 5em;
+    }
+    .social .instagram-images {
+        margin-top: auto;
+        width: 100%;
+        margin-right: auto;
+        text-align: center;
+    }
+    .social .instagram-images li {
+        margin-top: auto;
+        width: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .social .instagram-images li:first-child {
+        margin-right: 0%;
+        margin-top: 2em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .social .instagram-images li:last-child {
+        margin-left: 0;
+        margin-top: 2em;
+    }
+}
+/*ipad potrait*/
+
+@media only screen and (max-width: 768px) {
+    body {
+        color: red;
+    }
+    .introduction {
+        background-image: url(../images/topbackground.JPG);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40rem;
+    }
+    .top-navigation .links {
+        padding: 10px;
+        font-family: 'Roboto', sans-serif;
+        color: #ffffff;
+        font-size: 14px;
+        margin-top: 1em;
+        -webkit-font-smoothing: antialiased;
+        text-align: center;
+        border-top: solid 2px #ffffff;
+        border-bottom: solid 2px #ffffff;
+    }
+    .top-navigation .links li {
+        display: inline-block;
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+    }
+    .top-navigation .linkssocial {
+        padding: 15px;
+        font-family: 'Roboto', sans-serif;
+        color: #ffffff;
+        font-size: 20px;
+        margin-top: 10px;
+        -webkit-font-smoothing: antialiased;
+        text-align: center;
+        display: inline-block;
+    }
+    .top-navigation .linkssocial li {
+        display: inline-block;
+        margin-left: 15px;
+        border-radius: 1.25rem;
+        border: 2px solid #fff;
+        padding: 0.5rem 0;
+        width: 2.5rem;
+        height: 2.5rem;
+        text-align: center;
+    }
+    .cases {
+        position: relative;
+        background-color: #fff;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15rem;
+    }
+    .cases .content {
+        position: absolute;
+        z-index: 999;
+        margin-top: 1rem;
+        margin-bottom: 2.5rem;
+        padding: none;
+        color: #1d1e21;
+        text-align: center;
+        float: left;
+        top: -20rem;
+        display: block;
+        background-color: #fff;
+        width: 75%;
+    }
+    .cases h2 {
+        font-size: 1rem;
+        margin: 0 1rem;
+        font-weight: bold;
+        padding-top: 2rem;
+    }
+    .cases h3 {
+        font-size: 1rem;
+        margin: 0 0.5rem;
+        font-weight: 100;
+        margin-bottom: 2.5rem;
+        line-height: 150%;
+    }
+    .social .content .icons li {
+        display: block;
+        width: 100%;
+        vertical-align: top;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .social {
+        text-align: center;
+        background-image: url(../images/bottomt-background.JPG);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 45.938rem;
+        color: #fff;
+        padding-top: 5em;
+    }
+    .social .instagram-images {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .social .instagram-images li {
+        margin-top: auto;
+        width: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .social .instagram-images li:first-child {
+        margin-right: 0%;
+        margin-top: 2em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .social .instagram-images li:last-child {
+        margin-left: 0;
+        margin-top: 2em;
+    }
+}
+/*iPhone landscape*/
+
+@media only screen and (max-width: 480px) {
+    body {
+        color: green;
+    }
+    .propellerlogo {
+        width: 100px;
+        height: auto;
+    }
+    .introduction {
+        background-image: url(../images/topbackground.JPG);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40rem;
+    }
+    .top-navigation .linkssocial {
+        padding: 15px;
+        font-family: 'Roboto', sans-serif;
+        color: #ffffff;
+        font-size: 20px;
+        margin-top: 10px;
+        -webkit-font-smoothing: antialiased;
+        text-align: center;
+        display: inline-block;
+    }
+    .top-navigation .linkssocial li {
+        display: inline-block;
+        margin-left: 15px;
+        border-radius: 1.25rem;
+        border: 2px solid #fff;
+        padding: 0.53rem 0;
+        width: 2.5rem;
+        height: 2.5rem;
+        text-align: center;
+    }
+    .cases {
+        position: relative;
+        background-color: #fff;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+    }
+    .cases .content {
+        position: absolute;
+        z-index: 999;
+        margin-top: 1rem;
+        margin-bottom: 2.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding: none;
+        color: #1d1e21;
+        text-align: center;
+        float: left;
+        top: -20rem;
+        display: block;
+        background-color: #fff;
+        width: 100%;
+    }
+    .cases h3 {
+        font-size: 1rem;
+        margin: 0 0.5rem;
+        font-weight: 100;
+        margin-bottom: 2.5rem;
+        line-height: 150%;
+    }
+    .cases h2 {
+        font-size: 1rem;
+        margin: 0 1rem;
+        font-weight: bold;
+        padding-top: 2rem;
+    }
+    .top-navigation .linkssocial {
+        padding: 15px;
+        font-family: 'Roboto', sans-serif;
+        color: #ffffff;
+        font-size: 10px;
+        margin-top: 10px;
+        -webkit-font-smoothing: antialiased;
+        text-align: center;
+        display: inline-block;
+    }
+    .top-navigation .linkssocial li {
+        display: inline-block;
+        margin-left: 15px;
+        border-radius: 1.25rem;
+        border: 2px solid #fff;
+        padding: 0.3rem 0;
+        width: 1.5rem;
+        height: 1.5rem;
+        text-align: center;
+    }
+    .social {
+        text-align: center;
+        background-image: url(../images/bottomt-background.JPG);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 15.938rem;
+        color: #fff;
+        padding-top: 5em;
+    }
+    .icons span {
+        display: block;
+        width: 99%;
+    }
+    .social .content .icons li {
+        display: block;
+        width: 100%;
+        vertical-align: top;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .social .content .icons li {
+        display: block;
+        width: 100%;
+        vertical-align: top;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .social {
+        text-align: center;
+        background-image: url(../images/bottomt-background.JPG);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 45.938rem;
+        color: #fff;
+        padding-top: 15em;
+    }
+    .instaimage1 {
+        width: 25%;
+        height: auto;
+        display: inline-block;
+    }
+    .social .instagram-images {
+        margin-top: auto;
+        width: 100%;
+        margin-right: auto;
+        text-align: center;
+    }
+    .social .instagram-images li {
+        margin-top: auto;
+        width: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+    }
+    .social .instagram-images li:first-child {
+        margin-top: 2em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .social .instagram-images li:last-child {
+        margin-top: 2em;
+    }
+}
+/*iPhone portrait*/
+
+@media only screen and (max-width: 320px) {
+    body {
+        color: purple;
+    }
+    .propellerlogo {
+        width: 100px;
+        height: auto;
+    }
+    .introduction {
+        background-image: url(../images/topbackground.JPG);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 35.938rem;
+    }
+    .top-navigation .linkssocial {
+        padding: 15px;
+        font-family: 'Roboto', sans-serif;
+        color: #ffffff;
+        font-size: 10px;
+        margin-top: 10px;
+        -webkit-font-smoothing: antialiased;
+        text-align: center;
+        display: inline-block;
+    }
+    .top-navigation .linkssocial li {
+        display: inline-block;
+        margin-left: 15px;
+        border-radius: 1.25rem;
+        border: 2px solid #fff;
+        padding: 0.3rem 0;
+        width: 1.5rem;
+        height: 1.5rem;
+        text-align: center;
+    }
+    .cases {
+        position: relative;
+        background-color: #fff;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0.1rem;
+    }
+    .cases .content {
+        position: absolute;
+        z-index: 999;
+        margin-top: 5rem;
+        margin-bottom: 0.2rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding: none;
+        color: #1d1e21;
+        text-align: center;
+        float: left;
+        top: -20rem;
+        display: block;
+        background-color: #fff;
+        width: 100%;
+    }
+    .cases h2 {
+        font-size: 1rem;
+        margin: 0 1rem;
+        font-weight: bold;
+        padding-top: 2rem;
+    }
+    .cases h3 {
+        font-size: 1rem;
+        margin: 0 0.5rem;
+        font-weight: 100;
+        margin-bottom: 2.5rem;
+        line-height: 150%;
+    }
+    .social .content .icons li {
+        display: block;
+        width: 100%;
+        vertical-align: top;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .social {
+        text-align: center;
+        background-image: url(../images/bottomt-background.JPG);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 45.938rem;
+        color: #fff;
+        padding-top: 15em;
+    }
+    .social .instagram-images {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .icons span {
+        display: block;
+        width: 99%;
+    }
+    .instaimage1 {
+        width: 50%;
+        height: auto;
+    }
+    .social .instagram-images li {
+        margin-top: 2em;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .social .instagram-images li:first-child {
+        margin-right: 0%;
+        margin-top: 2em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .social .instagram-images li:last-child {
+        margin-left: 0;
+        margin-top: 2em;
+    }
+}
