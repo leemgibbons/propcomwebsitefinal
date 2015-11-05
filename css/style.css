@@ -8,6 +8,7 @@
     box-sizing: border-box;
 }
 /* Common */
+
 html {
     box-sizing: border-box;
 }
@@ -16,14 +17,12 @@ html {
 *:after {
     box-sizing: inherit;
 }
-
 body {
     background-color: #000;
 }
 h1 {
     margin: 0;
 }
-
 ul {
     list-style: none;
 }
@@ -98,13 +97,10 @@ ul {
 .top-navigation .links .active {
     color: #4c5058;
     font-weight: 500;
-	
 }
-
 .top-navigation .links li:hover {
     cursor: pointer;
     color: #b5daff;
-	
 }
 .top-navigation .linkssocial {
     padding: 15px;
@@ -133,11 +129,9 @@ ul {
     font-weight: 500;
 }
 .top-navigation .linkssocial li:hover {
-   cursor: pointer;
+    cursor: pointer;
     color: #b5daff;
 }
-
-
 /* Main Content */
 
 .cases {
@@ -166,7 +160,7 @@ ul {
     margin: 0 3rem;
     font-weight: bold;
     padding-top: 3rem;
-	padding-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 .cases h2 span {
     display: block;
@@ -178,7 +172,7 @@ ul {
     font-weight: 100;
     margin-bottom: 2.5rem;
     line-height: 150%;
-	font-style:italic;
+    font-style: italic;
 }
 .cases .devices {
     clear: both;
@@ -216,10 +210,10 @@ ul {
 }
 .social hr {
     width: 95%;
-	height: 2px;
-	color: #fff;
-	border-bottom: 2px solid;
-	margin: 5px;
+    height: 2px;
+    color: #fff;
+    border-bottom: 2px solid;
+    margin: 5px;
 }
 .social .socialbutton {
     width: 55%;
@@ -321,27 +315,22 @@ ul {
     width: 35%;
     background-color: #000;
 }
-
 .contact {
-	font-size: 14px;
-	padding: 2em;
+    font-size: 14px;
+    padding: 2em;
 }
-
 .contact span {
-	margin-left: 5px;
-	margin-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
-
 .contact hr {
-	width: 70%;
-	height: 4px;
-	color: #fff;
-	border-top: 2px solid;
-	margin-left: auto;
-	margin-right: auto;
-	
+    width: 70%;
+    height: 4px;
+    color: #fff;
+    border-top: 2px solid;
+    margin-left: auto;
+    margin-right: auto;
 }
-
 /*Media Queries*/
 
 @media only screen and (max-width: 1024px) {
@@ -474,7 +463,7 @@ ul {
         background-position: center bottom;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 40rem;
+        height: 45rem;
     }
     .top-navigation .links {
         padding: 10px;
@@ -489,8 +478,8 @@ ul {
     }
     .top-navigation .links li {
         display: inline-block;
-        margin-left: 1.5%;
-        margin-right: 1.5%;
+        margin-left: auto;
+        margin-right: auto%;
     }
     .top-navigation .linkssocial {
         padding: 15px;
@@ -602,7 +591,13 @@ ul {
         background-position: center bottom;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 40rem;
+        height: 43rem;
+    }
+    .top-navigation .links li {
+        display: block;
+        width: 100%;
+        text-align: center;
+        text-justify: inter-word;
     }
     .top-navigation .linkssocial {
         padding: 15px;
@@ -762,7 +757,11 @@ ul {
         background-position: center bottom;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 35.938rem;
+        height: 38rem;
+    }
+    .top-navigation .links li {
+        display: block;
+        width: 100%;
     }
     .top-navigation .linkssocial {
         padding: 15px;
