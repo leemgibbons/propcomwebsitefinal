@@ -98,10 +98,13 @@ ul {
 .top-navigation .links .active {
     color: #4c5058;
     font-weight: 500;
+	
 }
+
 .top-navigation .links li:hover {
     cursor: pointer;
-    color: #333333;
+    color: #b5daff;
+	
 }
 .top-navigation .linkssocial {
     padding: 15px;
@@ -129,10 +132,12 @@ ul {
     color: #4c5058;
     font-weight: 500;
 }
-.top-navigation .links li:hover {
-    cursor: pointer;
-    color: #333333;
+.top-navigation .linkssocial li:hover {
+   cursor: pointer;
+    color: #b5daff;
 }
+
+
 /* Main Content */
 
 .cases {
@@ -160,7 +165,8 @@ ul {
     font-size: 2rem;
     margin: 0 3rem;
     font-weight: bold;
-    padding-top: 2rem;
+    padding-top: 3rem;
+	padding-bottom: 1rem;
 }
 .cases h2 span {
     display: block;
@@ -168,10 +174,11 @@ ul {
 }
 .cases h3 {
     font-size: 1rem;
-    margin: 0 11.125rem;
+    margin: 0 14rem;
     font-weight: 100;
     margin-bottom: 2.5rem;
     line-height: 150%;
+	font-style:italic;
 }
 .cases .devices {
     clear: both;
@@ -314,6 +321,27 @@ ul {
     width: 35%;
     background-color: #000;
 }
+
+.contact {
+	font-size: 14px;
+	padding: 2em;
+}
+
+.contact span {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.contact hr {
+	width: 70%;
+	height: 4px;
+	color: #fff;
+	border-top: 2px solid;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
 /*Media Queries*/
 
 @media only screen and (max-width: 1024px) {
